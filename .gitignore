@@ -1,0 +1,22 @@
+# Binários ffmpeg (muito grandes)
+ffmpeg.exe
+ffprobe.exe
+
+# Build PyInstaller
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Atalhos Windows
+*.lnk
+
+# Dados locais do Claude
+.claude/
+
+# Histórico local do app
+~/.albumsplitter_history.json
