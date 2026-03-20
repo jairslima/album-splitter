@@ -267,6 +267,10 @@ class App(_AppBase):
     def _build_ui(self):
         pad = {"padx": 8, "pady": 4}
 
+        # ── Cabeçalho ──
+        tk.Label(self, text="Album Splitter by Jair Lima",
+                 font=("Segoe UI", 13, "bold"), fg="#2d6a4f").pack(pady=(10, 0))
+
         # ── Arquivo MP3 ──
         f1 = tk.LabelFrame(self, text=" Arquivo MP3 (CD Completo) ", padx=8, pady=6)
         f1.pack(fill="x", padx=12, pady=(10, 4))

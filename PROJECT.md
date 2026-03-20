@@ -65,6 +65,10 @@ pyinstaller AlbumSplitter.spec
 
 Funcional. Publicado em: https://github.com/jairslima/album-splitter
 
+Última sessão (2026-03-20):
+- Adicionado label "Album Splitter by Jair Lima" visível no topo da UI (verde, negrito)
+- Regra global de autoria atualizada: o nome deve aparecer na UI, não só na barra de título
+
 ## Próximos passos possíveis
 
 - Suporte a múltiplos discos (CD1/CD2)
