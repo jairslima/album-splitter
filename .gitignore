@@ -20,3 +20,13 @@ __pycache__/
 
 # Histórico local do app
 ~/.albumsplitter_history.json
+
+# Seguranca — auditoria 2026-05-28
+.env
+*.key
+secrets.*
+*.pkl
+*.pem
+credentials.*
+*.p12
+*.pfx
